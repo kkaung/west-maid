@@ -48,6 +48,14 @@ export const siteConfig = {
                     title: 'Oven Cleaning',
                     href: '/oven-cleaning-perth',
                 },
+                {
+                    title: 'Window Cleaning',
+                    href: '/window-cleaning-perth',
+                },
+                {
+                    title: 'Builder Cleaning',
+                    href: '/builder-cleaning-perth',
+                },
             ],
         },
         {
@@ -83,6 +91,14 @@ export const siteConfig = {
                 {
                     title: 'Carpet Cleaning',
                     href: '/carpet-cleaning-perth',
+                },
+                {
+                    title: 'Window Cleaning',
+                    href: '/window-cleaning-perth',
+                },
+                {
+                    title: 'Builder Cleaning',
+                    href: '/builder-cleaning-perth',
                 },
             ],
         },
