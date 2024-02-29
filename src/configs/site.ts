@@ -6,8 +6,8 @@ export type SiteConfig = typeof siteConfig;
 const links = {
     facebook:
         'https://www.linkedin.com/company/more-clean-house-cleaning-sydney',
-    instagram: 'https://instagram.com/moreclean_au',
-    twitter: 'https://twitter.com/moreclean_au',
+    instagram: 'https://instagram.com/westmaid_au',
+    twitter: 'https://twitter.com/westmaid_au',
     pinterest: 'https://www.pinterest.com.au/magicclean_au',
     linkin: 'https://www.linkedin.com/company/',
     youtube: 'https://www.youtube.com/channel/',
@@ -18,12 +18,12 @@ const links = {
 };
 
 export const siteConfig = {
-    logo: 'MagicClean',
-    name: 'Magic Clean',
-    title: `Sydney's Premium House Cleaning Serivce | Magic Clean`,
+    logo: 'WestMaid',
+    name: 'West Maid',
+    title: `Perth's Premium House Cleaning Serivce | West Maid`,
     description: `Our top-rated cleaning services come with a 200% satisfaction guarantee. We deliver sparkling results you'll love with our professional cleaners. Book online in 60 seconds!`,
-    url: 'https://moreclean.com.au',
-    ogImage: 'https://moreclean.com.au/opengraph-image.png',
+    url: 'https://westmaid.com.au',
+    ogImage: 'https://westmaid.com.au/opengraph-image.png',
     mainNav: [
         {
             title: 'Services',
@@ -60,7 +60,7 @@ export const siteConfig = {
         },
         {
             title: 'Pricing',
-            href: '/house-cleaning-pricing-sydney',
+            href: '/house-cleaning-pricing-perth',
         },
     ] satisfies MainNavItem[],
     links,
@@ -124,7 +124,7 @@ export const siteConfig = {
         },
     ] satisfies FooterItem[],
     business: {
-        email: 'contact@moreclean.com.au',
+        email: 'contact@westmaid.com.au',
         phone: '1302 245 417',
         address: '401/249 George St, 2017 NSW',
         openingHour: 'Mon – Sun: 9:00 AM – 5:00 PM',
