@@ -168,14 +168,6 @@ export default async function SiteFooter({ ...props }: SiteFooterProps) {
                             <Icons.pinterest aria-hidden className="h-4 w-4" />
                         </Link>
                         <Link
-                            aria-label="BUY NSW"
-                            target="_blank"
-                            href={siteConfig.links.buynsw}
-                            title="NSW Government registered ICT supplier"
-                        >
-                            <Icons.sticker aria-hidden className="h-4 w-4" />
-                        </Link>
-                        <Link
                             aria-label="Yelp"
                             target="_blank"
                             href={siteConfig.links.yelp}

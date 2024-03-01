@@ -1,8 +1,9 @@
+import Image from 'next/image';
+import Link from 'next/link';
+import Dot from '@/components/dot';
 import { notFound } from 'next/navigation';
 import { type Author, allAuthors, allPosts } from 'contentlayer/generated';
 import { Mdx } from '@/components/mdx/mdx-components';
-import Image from 'next/image';
-import Link from 'next/link';
 import { type Metadata } from 'next';
 import { env } from '@/env.mjs';
 import { absoluteUrl, cn, formatDate } from '@/lib/utils';
@@ -13,9 +14,7 @@ import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { headingVariants } from '@/components/page-header';
 import { Breadcrumbs } from '@/components/pagers/breadcrumbs';
 import { getPathname } from '@/lib/next';
-import { cities } from '@/configs/location';
 
-import Dot from '@/components/dot';
 import { siteConfig } from '@/configs/site';
 
 interface PostPageProps {
@@ -228,42 +227,74 @@ export default async function PostPage({ params }: PostPageProps) {
                 <ul className="grid grid-cols-1 gap-x-4 gap-y-2 text-sm">
                     <li>
                         <Link
-                            href="/deep-cleaning-sydney"
-                            title="Deep Cleaning Service In Sydney"
+                            href="/deep-cleaning-perth"
+                            title="Deep Cleaning Service In Perth"
                         >
                             Deep Cleaning
                         </Link>
                     </li>
                     <li>
                         <Link
-                            href="/regular-cleaning-sydney"
-                            title="Regular Cleaning Service In Sydney"
+                            href="/regular-cleaning-perth"
+                            title="Regular Cleaning Service In Perth"
                         >
                             Regular Cleaning
                         </Link>
                     </li>
                     <li>
                         <Link
-                            href="/end-of-lease-cleaning-sydney"
-                            title="End Of Lease Cleaning Service In Sydney"
+                            href="/end-of-lease-cleaning-perth"
+                            title="End Of Lease Cleaning Service In Perth"
                         >
                             End Of Lease Cleaning
                         </Link>
                     </li>
                     <li>
                         <Link
-                            href="/end-of-lease-cleaning-sydney"
-                            title="End Of Lease Cleaning Service In Sydney"
+                            href="/end-of-lease-cleaning-perth"
+                            title="End Of Lease Cleaning Service In Perth"
                         >
                             Office Cleaning
                         </Link>
                     </li>
                     <li>
                         <Link
-                            href="/end-of-lease-cleaning-sydney"
-                            title="End Of Lease Cleaning Service In Sydney"
+                            href="/end-of-lease-cleaning-perth"
+                            title="End Of Lease Cleaning Service In Perth"
                         >
                             Oven Cleaning
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            href="/carpet-cleaning-perth"
+                            title="Carpet Cleaning Service In Perth"
+                        >
+                            Carpet Cleaning
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            href="/window-cleaning-perth"
+                            title="Window Cleaning Service In Perth"
+                        >
+                            Window Cleaning
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            href="/after-builder-cleaning-perth"
+                            title="After Cleaning Service In Perth"
+                        >
+                            After Builder Cleaning
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            href="/airbnb-cleaning-perth"
+                            title="Airbnb Cleaning Service In Perth"
+                        >
+                            Airbnb Cleaning
                         </Link>
                     </li>
                 </ul>

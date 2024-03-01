@@ -25,6 +25,7 @@ import Commitment from '@/components/commitment';
 import Featuring from './_components/featuring';
 import SocialVideos from '@/components/social-videos';
 import { ServicesDialog } from '@/components/services-dialog';
+import Services from './_components/services';
 
 export const runtime = 'edge';
 
@@ -41,6 +42,7 @@ export default function Page() {
                 <Reviews location="Sydney" />
                 <HowWork />
                 <Features />
+                <Services />
                 <Checklist />
                 <Gurantee />
                 <FAQs />

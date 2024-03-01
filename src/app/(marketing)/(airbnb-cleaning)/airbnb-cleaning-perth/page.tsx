@@ -22,8 +22,8 @@ export default function Page() {
             segments={[
                 { title: 'Home', href: '/' },
                 {
-                    title: 'Builder Cleaning',
-                    href: '/builder-cleaning-perth',
+                    title: 'Airbnb Cleaning',
+                    href: '/airbnb-cleaning-gold-coast',
                 },
             ]}
         />

@@ -4,8 +4,7 @@ import type { FooterItem, MainNavItem } from '@/types';
 export type SiteConfig = typeof siteConfig;
 
 const links = {
-    facebook:
-        'https://www.linkedin.com/company/more-clean-house-cleaning-sydney',
+    facebook: 'https://www.linkedin.com/company/',
     instagram: 'https://instagram.com/westmaid_au',
     twitter: 'https://twitter.com/westmaid_au',
     pinterest: 'https://www.pinterest.com.au/magicclean_au',
@@ -13,7 +12,6 @@ const links = {
     youtube: 'https://www.youtube.com/channel/',
     googlemap: '',
 
-    buynsw: 'https://buy.nsw.gov.au/supplier/profile',
     yelp: 'https://www.yelp.com/biz/',
 };
 
@@ -49,12 +47,20 @@ export const siteConfig = {
                     href: '/oven-cleaning-perth',
                 },
                 {
+                    title: 'Carpet Cleaning',
+                    href: '/carpet-cleaning-perth',
+                },
+                {
                     title: 'Window Cleaning',
                     href: '/window-cleaning-perth',
                 },
                 {
-                    title: 'Builder Cleaning',
-                    href: '/builder-cleaning-perth',
+                    title: 'After Builder Cleaning',
+                    href: '/after-builder-cleaning-perth',
+                },
+                {
+                    title: 'Airbnb Cleaning',
+                    href: '/airbnb-cleaning-perth',
                 },
             ],
         },
@@ -97,8 +103,12 @@ export const siteConfig = {
                     href: '/window-cleaning-perth',
                 },
                 {
-                    title: 'Builder Cleaning',
-                    href: '/builder-cleaning-perth',
+                    title: 'After Builder Cleaning',
+                    href: '/after-builder-cleaning-perth',
+                },
+                {
+                    title: 'Airbnb Cleaning',
+                    href: '/airbnb-cleaning-perth',
                 },
             ],
         },
@@ -108,7 +118,7 @@ export const siteConfig = {
                 { title: 'Services', href: '/cleaning-services' },
                 { title: 'Contact Us', href: '/contact' },
                 { title: 'Blog', href: '/blog' },
-                { title: 'Pricing', href: '/house-cleaning-pricing-sydney' },
+                { title: 'Pricing', href: '/house-cleaning-pricing-perth' },
                 { title: 'Checklist', href: '/house-cleaning-checklist' },
                 { title: 'FAQs', href: '/frequently-asked-questions' },
                 { title: 'Privacy Policy', href: '/privacy' },

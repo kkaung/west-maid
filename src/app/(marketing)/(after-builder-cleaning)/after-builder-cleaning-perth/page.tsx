@@ -1,6 +1,6 @@
+import React from 'react';
 import { getCityFromPath } from '@/lib/next';
 import { type Metadata } from 'next';
-import React from 'react';
 
 import { getMetadata } from '../_components/metadata';
 import Content from '../_components/content';
@@ -22,8 +22,8 @@ export default function Page() {
             segments={[
                 { title: 'Home', href: '/' },
                 {
-                    title: 'Window Cleaning',
-                    href: '/window-cleaning-perth',
+                    title: 'Builder Cleaning',
+                    href: '/after-builder-cleaning-perth',
                 },
             ]}
         />

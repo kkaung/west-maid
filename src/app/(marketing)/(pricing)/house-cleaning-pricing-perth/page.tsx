@@ -66,7 +66,7 @@ export default function Page() {
             />
             <PageHeader className="text-center">
                 <PageHeaderHeading>
-                    House Cleaning Pricing In Sydney
+                    House Cleaning Pricing In Perth
                 </PageHeaderHeading>
             </PageHeader>
             <section className="broder max-w-xl mx-auto w-full">

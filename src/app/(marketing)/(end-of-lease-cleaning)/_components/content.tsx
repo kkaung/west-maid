@@ -10,6 +10,7 @@ import Reviews from './reviews';
 import LatestBlog from '../../_components/latest-blog';
 import About from '../../_components/about';
 import Commitment from '@/components/commitment';
+import Services from './services';
 
 interface ContentProps {
     city: string;
@@ -24,6 +25,7 @@ export default function Content({ city, suburb, segments }: ContentProps) {
                 <Hero location={city} />
                 <Reviews location={city} />
                 <Features location={city} />
+                <Services />
                 <FAQs />
                 <About />
                 <LatestBlog />
