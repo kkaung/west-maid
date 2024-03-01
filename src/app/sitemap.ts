@@ -35,6 +35,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         '/carpet-cleaning-perth',
         '/window-cleaning-perth',
         '/after-builder-cleaning-perth',
+        '/airbnb-cleaning-perth',
     ].map(route => ({
         url: absoluteUrl(route),
         lastModified: new Date().toISOString(),
