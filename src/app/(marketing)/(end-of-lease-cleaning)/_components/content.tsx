@@ -8,9 +8,9 @@ import Features from './features';
 import Reviews from './reviews';
 
 import LatestBlog from '../../_components/latest-blog';
-import About from '../../_components/about';
 import Commitment from '@/components/commitment';
 import Services from './services';
+import About from '@/components/about';
 
 interface ContentProps {
     city: string;

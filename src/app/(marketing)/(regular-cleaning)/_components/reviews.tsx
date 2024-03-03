@@ -9,7 +9,7 @@ const getReviews = (location: string) => {
     return [
         {
             name: 'Emily',
-            body: 'RZ Cleaning Team did a great job on our apartment. Everything was spotless and we got 100% of our bond back. I would definitely recommend them for End of Lease cleaning.',
+            body: 'West Maid Team did a great job on our apartment. Everything was spotless and we got 100% of our bond back. I would definitely recommend them for End of Lease cleaning.',
         },
         {
             name: 'Dora',
@@ -21,7 +21,7 @@ const getReviews = (location: string) => {
         },
         {
             name: 'Jessie W',
-            body: 'We booked the service for our end of lease cleaning and I couldn’t be happier. The flat is spotless and the service was amazing including the customer service before and after the cleaning. I will totally recommend RZ Cleaning.',
+            body: 'We booked the service for our end of lease cleaning and I couldn’t be happier. The flat is spotless and the service was amazing including the customer service before and after the cleaning. I will totally recommend West Maid.',
         },
         {
             name: 'Kelly',
@@ -41,7 +41,7 @@ const getReviews = (location: string) => {
         },
         {
             name: 'Melanie',
-            body: `I've used RZ Cleaning twice for bond cleaning, and on both occasions they have been very open and communicative. The cleaning met all my expectations and would recommend them.`,
+            body: `I've used West Maid twice for bond cleaning, and on both occasions they have been very open and communicative. The cleaning met all my expectations and would recommend them.`,
         },
         {
             name: 'Sarah',
@@ -49,7 +49,7 @@ const getReviews = (location: string) => {
         },
         {
             name: 'Peter M',
-            body: `I have used many cleaning companies over the years and RZ Cleaning is the best I have found in ${location} for exit clean.`,
+            body: `I have used many cleaning companies over the years and West Maid is the best I have found in ${location} for exit clean.`,
         },
         {
             name: 'Dean',

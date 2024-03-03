@@ -72,7 +72,7 @@ export const siteConfig = {
     links,
     footerNav: [
         {
-            title: 'Cleaning Services',
+            title: 'Services',
             items: [
                 {
                     title: 'Deep Cleaning',

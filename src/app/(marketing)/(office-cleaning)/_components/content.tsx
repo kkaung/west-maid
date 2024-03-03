@@ -2,6 +2,7 @@ import React from 'react';
 import { Shell } from '@/components/shell';
 import { Breadcrumbs } from '@/components/pagers/breadcrumbs';
 import Commitment from '@/components/commitment';
+import About from '@/components/about';
 
 import Hero from './hero';
 import FAQs from './faqs';
@@ -9,7 +10,6 @@ import Features from './features';
 import Reviews from './reviews';
 
 import LatestBlog from '../../_components/latest-blog';
-import About from '../../_components/about';
 import Services from './services';
 
 interface ContentProps {

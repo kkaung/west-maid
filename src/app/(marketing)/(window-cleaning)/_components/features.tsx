@@ -9,16 +9,16 @@ interface FeaturesProps extends HTMLAttributes<HTMLElement> {
 
 const items = [
     {
-        title: '100% Bond Back Guarantee',
-        content: `If your real estate agent spots any issues within 72 hours after our clean, we'll come back to fix them—completely free of charge.`,
+        title: '200% Satisfaction Guarantee',
+        content: `Book with confidence knowing your satisfaction is guaranteed. If anything isn't spotless, we'll happily reclean the area in free of charge.`,
     },
     {
         title: 'Simple & Easy Booking',
-        content: `Bond cleans are booked online with one simple process, using your phone or computer.`,
+        content: `Cleaning services are booked online with one simple process, using your phone or computer.`,
     },
     {
-        title: 'Expert End Of Lease Cleaners',
-        content: `Our staff are professionally trained so you can trust our cleaning teams to do the best job possible so you can get your bond back.`,
+        title: 'Expert Cleaners',
+        content: `Our staff are professionally trained so you can trust our cleaning teams to do the best job possible.`,
     },
     {
         title: 'Cleaning Equipment Provided',
@@ -26,15 +26,15 @@ const items = [
     },
     {
         title: 'Full Liability Insurance',
-        content: `Our end of lease cleaning service is covered by our $10 million public liability insurance.`,
+        content: `Our cleaning service is covered by our $10 million public liability insurance.`,
     },
     {
         title: 'Exceptional Customer Service',
         content: `Trust our expert customer service team for comprehensive support from inquiry to post-service, ensuring your satisfaction at every stage.`,
     },
     {
-        title: 'Across Sydney',
-        content: `We’ve got vetted end lease cleaners across Sydney, ready to help get you on the move.`,
+        title: 'Across Perth',
+        content: `We’ve got insured & vetted window cleaners across Perth, ready to help get you in getting your home sparkling clean.`,
     },
     {
         title: 'No Hidden Fees',

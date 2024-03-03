@@ -17,15 +17,10 @@ export default function About({ ...props }: AboutPropse) {
             <h3 className={cn(headingVariants({}))}>About {siteConfig.name}</h3>
             <div className="space-y-6">
                 <p>
-                    We are {siteConfig.name}, Australia’s leading online
-                    platform for matching customers up with the best end of
-                    lease, bond cleaners across major cities in Australia.
-                </p>
-                <p>
                     Founded in 2013, {siteConfig.name} is committed to enhancing
-                    the cleaning experience in Australia. We empower customers
-                    and cleaning professionals with a streamlined platform,
-                    making the entire process faster, smoother, and more
+                    the cleaning experience in Perth. We empower customers and
+                    cleaning professionals with a streamlined platform, making
+                    the entire process faster, smoother, and more
                     straightforward.
                 </p>
             </div>

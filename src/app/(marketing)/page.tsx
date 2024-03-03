@@ -17,7 +17,6 @@ import Checklist from './_components/checklist';
 import Features from './_components/features';
 import Gurantee from './_components/gurantee';
 import LatestBlog from './_components/latest-blog';
-import About from './_components/about';
 import { absoluteUrl } from '@/lib/utils';
 import { siteConfig } from '@/configs/site';
 import Commitment from '@/components/commitment';
@@ -26,6 +25,7 @@ import Featuring from './_components/featuring';
 import SocialVideos from '@/components/social-videos';
 import { ServicesDialog } from '@/components/services-dialog';
 import Services from './_components/services';
+import About from '@/components/about';
 
 export const runtime = 'edge';
 
