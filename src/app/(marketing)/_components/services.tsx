@@ -34,7 +34,7 @@ export default function Services({ ...props }: ServicesProps) {
                             key={i.title}
                             className="border rounded-xl overflow-hidden group cursor-pointer"
                         >
-                            <Link href={i.href} title={`${i.title} Gold Coast`}>
+                            <Link href={i.href} title={`${i.title} Perth`}>
                                 <Image
                                     src={ImageSrc!}
                                     alt={`${i.title}`}
@@ -42,10 +42,7 @@ export default function Services({ ...props }: ServicesProps) {
                                 />
                             </Link>
                             <div className="p-4">
-                                <Link
-                                    href={i.href}
-                                    title={`${i.title} Gold Coast`}
-                                >
+                                <Link href={i.href} title={`${i.title} Perth`}>
                                     <h3 className="font-semibold group-hover:underline">
                                         {i.title}
                                     </h3>

@@ -1,47 +1,47 @@
 export const items = [
     {
         title: 'Deep Cleaning',
-        href: '/deep-cleaning-gold-coast',
+        href: '/deep-cleaning-perth',
         image: 'DeepCleanImage',
     },
     {
         title: 'Regular Cleaning',
-        href: '/regular-cleaning-gold-coast',
+        href: '/regular-cleaning-perth',
         image: 'RegularCleanImage',
     },
     {
         title: 'Bond Cleaning',
-        href: '/bond-cleaning-gold-coast',
+        href: '/bond-cleaning-perth',
         image: 'BondCleanImage',
     },
     {
         title: 'Office Cleaning',
-        href: '/office-cleaning-gold-coast',
+        href: '/office-cleaning-perth',
         image: 'OfficeCleanImage',
     },
     {
         title: 'Oven Cleaning',
-        href: '/oven-cleaning-gold-coast',
+        href: '/oven-cleaning-perth',
         image: 'OvenCleanImage',
     },
     {
         title: 'Carpet Cleaning',
-        href: '/carpet-cleaning-gold-coast',
+        href: '/carpet-cleaning-perth',
         image: 'CarpetCleanImage',
     },
     {
         title: 'Window Cleaning',
-        href: '/window-cleaning-gold-coast',
+        href: '/window-cleaning-perth',
         image: 'WindowCleanImage',
     },
     {
         title: 'After Builder Cleaning',
-        href: '/after-builder-cleaning-gold-coast',
+        href: '/after-builder-cleaning-perth',
         image: 'AfterBuilderCleanImage',
     },
     {
         title: 'Airbnb Cleaning',
-        href: '/airbnb-cleaning-gold-coast',
+        href: '/airbnb-cleaning-perth',
         image: 'AirbnbCleanImage',
     },
 ];
