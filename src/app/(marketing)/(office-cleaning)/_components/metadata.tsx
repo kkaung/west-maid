@@ -6,7 +6,7 @@ export const getMetadata = (location: string): Metadata => {
 
     return {
         title: `Commercial Office Cleaning Service In Perth`,
-        description: `Get a sparkling clean office with our professional office cleaners. Sydney's trusted commercial office cleaning service. Book online in 60 seconds!`,
+        description: `Get a sparkling clean office with our professional office cleaners. Perth's trusted commercial office cleaning service. Book online in 60 seconds!`,
         alternates: {
             canonical: pathname,
         },

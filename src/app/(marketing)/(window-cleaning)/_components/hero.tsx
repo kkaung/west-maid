@@ -74,7 +74,7 @@ export default function Hero({ location, ...props }: HeroProps) {
                                     strokeWidth={3}
                                 />
                                 <p>
-                                    Trusted by 1000+ monthly movers in
+                                    Trusted by 1000+ monthly movers in{' '}
                                     {location}
                                 </p>
                             </div>

@@ -105,7 +105,7 @@ export default async function PostPage({ params }: PostPageProps) {
     ) as Author;
 
     return (
-        <section className="container relative max-w-3xl py-6 lg:py-10">
+        <article className="container relative max-w-3xl py-6 lg:py-10">
             <Link
                 href="/blog"
                 className={cn(
@@ -220,7 +220,7 @@ export default async function PostPage({ params }: PostPageProps) {
                     <h3 className="font-semibold text-lg">{siteConfig.name}</h3>
                     <p className="text-sm">
                         {siteConfig.name} is a top-rated house cleaning company
-                        in Sydney. We offer tailored cleaning services for your
+                        in Perth. We offer tailored cleaning services for your
                         homes, apartments and offices.
                     </p>
                 </div>
@@ -228,7 +228,7 @@ export default async function PostPage({ params }: PostPageProps) {
                     <li>
                         <Link
                             href="/deep-cleaning-perth"
-                            title="Deep Cleaning Service In Perth"
+                            title="Deep Cleaning Service Perth"
                         >
                             Deep Cleaning
                         </Link>
@@ -236,7 +236,7 @@ export default async function PostPage({ params }: PostPageProps) {
                     <li>
                         <Link
                             href="/regular-cleaning-perth"
-                            title="Regular Cleaning Service In Perth"
+                            title="Regular Cleaning Service Perth"
                         >
                             Regular Cleaning
                         </Link>
@@ -244,7 +244,7 @@ export default async function PostPage({ params }: PostPageProps) {
                     <li>
                         <Link
                             href="/end-of-lease-cleaning-perth"
-                            title="End Of Lease Cleaning Service In Perth"
+                            title="End Of Lease Cleaning Service Perth"
                         >
                             End Of Lease Cleaning
                         </Link>
@@ -252,7 +252,7 @@ export default async function PostPage({ params }: PostPageProps) {
                     <li>
                         <Link
                             href="/end-of-lease-cleaning-perth"
-                            title="End Of Lease Cleaning Service In Perth"
+                            title="End Of Lease Cleaning Service Perth"
                         >
                             Office Cleaning
                         </Link>
@@ -260,7 +260,7 @@ export default async function PostPage({ params }: PostPageProps) {
                     <li>
                         <Link
                             href="/end-of-lease-cleaning-perth"
-                            title="End Of Lease Cleaning Service In Perth"
+                            title="End Of Lease Cleaning Service Perth"
                         >
                             Oven Cleaning
                         </Link>
@@ -268,7 +268,7 @@ export default async function PostPage({ params }: PostPageProps) {
                     <li>
                         <Link
                             href="/carpet-cleaning-perth"
-                            title="Carpet Cleaning Service In Perth"
+                            title="Carpet Cleaning Service Perth"
                         >
                             Carpet Cleaning
                         </Link>
@@ -276,7 +276,7 @@ export default async function PostPage({ params }: PostPageProps) {
                     <li>
                         <Link
                             href="/window-cleaning-perth"
-                            title="Window Cleaning Service In Perth"
+                            title="Window Cleaning Service Perth"
                         >
                             Window Cleaning
                         </Link>
@@ -284,7 +284,7 @@ export default async function PostPage({ params }: PostPageProps) {
                     <li>
                         <Link
                             href="/after-builder-cleaning-perth"
-                            title="After Cleaning Service In Perth"
+                            title="After Cleaning Service Perth"
                         >
                             After Builder Cleaning
                         </Link>
@@ -292,7 +292,7 @@ export default async function PostPage({ params }: PostPageProps) {
                     <li>
                         <Link
                             href="/airbnb-cleaning-perth"
-                            title="Airbnb Cleaning Service In Perth"
+                            title="Airbnb Cleaning Service Perth"
                         >
                             Airbnb Cleaning
                         </Link>
@@ -316,6 +316,6 @@ export default async function PostPage({ params }: PostPageProps) {
                     See all posts
                 </Link>
             </div>
-        </section>
+        </article>
     );
 }
