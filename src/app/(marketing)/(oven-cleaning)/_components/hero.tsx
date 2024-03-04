@@ -11,15 +11,15 @@ import {
     CarouselItem,
 } from '@/components/ui/carousel';
 import { cn } from '@/lib/utils';
-import Link from 'next/link';
+import { siteConfig } from '@/configs/site';
 import React, { type HTMLAttributes } from 'react';
+import Link from 'next/link';
 import Balancer from 'react-wrap-balancer';
 import Image from 'next/image';
 import HeroOneImage from '/public/assets/images/hero-one.jpeg';
 import HeroTwoImage from '/public/assets/images/hero-two.jpeg';
 import HeroThreeImage from '/public/assets/images/hero-three.jpeg';
 import Autoplay from 'embla-carousel-autoplay';
-import { siteConfig } from '@/configs/site';
 
 interface HeroProps extends HTMLAttributes<HTMLElement> {
     location: string;
