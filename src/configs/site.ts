@@ -137,7 +137,7 @@ export const siteConfig = {
     business: {
         email: 'contact@westmaid.com.au',
         phone: '1302 245 417',
-        address: '401/249 George St, 2017 NSW',
+        address: '76 Stirling St, Perth WA 6000',
         openingHour: 'Mon – Sun: 9:00 AM – 5:00 PM',
     },
     rating: {
