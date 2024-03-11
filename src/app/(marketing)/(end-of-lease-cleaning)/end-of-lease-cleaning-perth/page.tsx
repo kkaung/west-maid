@@ -22,7 +22,7 @@ export default function Page() {
                 { title: 'Home', href: '/' },
                 {
                     title: 'End Of Lease Cleaning',
-                    href: '/end-of-lease-cleaning-sydney',
+                    href: '/end-of-lease-cleaning-perth',
                 },
             ]}
         />
