@@ -4,12 +4,12 @@ import type { FooterItem, MainNavItem } from '@/types';
 export type SiteConfig = typeof siteConfig;
 
 const links = {
-    facebook: 'https://www.linkedin.com/company/',
-    instagram: 'https://instagram.com/westmaid_au',
-    twitter: 'https://twitter.com/westmaid_au',
-    pinterest: 'https://www.pinterest.com.au/magicclean_au',
-    linkin: 'https://www.linkedin.com/company/',
-    youtube: 'https://www.youtube.com/channel/',
+    facebook: 'https://www.facebook.com/people/West-Maid/61556968664093/',
+    instagram: 'https://instagram.com/westmaidperth',
+    twitter: 'https://twitter.com/westmaidperth',
+    pinterest: 'https://www.pinterest.com.au/westmaidperth',
+    linkin: 'https://www.linkedin.com/company/west-maid',
+    youtube: 'https://www.youtube.com/@WestMaid',
     googlemap: '',
 
     yelp: 'https://www.yelp.com/biz/',
