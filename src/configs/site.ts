@@ -18,7 +18,7 @@ const links = {
 export const siteConfig = {
     logo: 'WestMaid',
     name: 'West Maid',
-    title: `Perth's Premium House Cleaning Serivce | West Maid`,
+    title: `West Maid - Cleaning Serivce Perth`,
     description: `Our top-rated cleaning services come with a 200% satisfaction guarantee. We deliver sparkling results you'll love with our professional cleaners. Book online in 60 seconds!`,
     url: 'https://westmaid.com.au',
     ogImage: 'https://westmaid.com.au/opengraph-image.png',
@@ -142,7 +142,7 @@ export const siteConfig = {
     },
     rating: {
         ratingValue: '4.9',
-        ratingCount: '727',
+        ratingCount: 727,
     },
 };
 

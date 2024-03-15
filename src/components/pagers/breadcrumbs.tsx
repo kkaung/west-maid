@@ -1,9 +1,8 @@
 import * as React from 'react';
 import Link from 'next/link';
 import { SlashIcon } from '@radix-ui/react-icons';
-import { absoluteUrl, cn, truncate } from '@/lib/utils';
+import { cn, truncate } from '@/lib/utils';
 import Dot from '@/components/dot';
-import { BreadcrumbJsonLd } from 'next-seo';
 import { Icons } from '@/components/icons';
 import { siteConfig } from '@/configs/site';
 
@@ -102,16 +101,6 @@ export function Breadcrumbs({
                     );
                 })}
             </nav>
-            <BreadcrumbJsonLd
-                useAppDir
-                itemListElements={segments.map((segment, idx) => {
-                    return {
-                        position: idx + 1,
-                        name: segment.title,
-                        item: absoluteUrl(segment.href),
-                    };
-                })}
-            />
         </>
     );
 }

@@ -1,13 +1,6 @@
 import { Shell } from '@/components/shell';
 import { type Metadata } from 'next';
 import React from 'react';
-import {
-    BrandJsonLd,
-    BreadcrumbJsonLd,
-    OrganizationJsonLd,
-    ProductJsonLd,
-    WebPageJsonLd,
-} from 'next-seo';
 
 import Hero from './_components/hero';
 import HowWork from './_components/how-work';
@@ -50,39 +43,6 @@ export default function Page() {
                 <LatestBlog />
                 <Commitment />
             </Shell>
-            <OrganizationJsonLd
-                useAppDir
-                id={absoluteUrl('')}
-                name={siteConfig.title}
-                description={siteConfig.description}
-                legalName={siteConfig.name}
-                url={absoluteUrl('')}
-                logo={absoluteUrl('/')}
-                sameAs={[
-                    siteConfig.links.facebook,
-                    siteConfig.links.linkin,
-                    siteConfig.links.instagram,
-                    siteConfig.links.twitter,
-                    siteConfig.links.youtube,
-                ]}
-                address={{
-                    streetAddress: '401 / 249 George St',
-                    addressLocality: 'Waterloo',
-                    addressRegion: 'NSW',
-                    postalCode: '2017',
-                    addressCountry: 'AU',
-                }}
-            />
-            <BreadcrumbJsonLd
-                useAppDir
-                itemListElements={[
-                    {
-                        position: 1,
-                        name: 'Home',
-                        item: absoluteUrl(''),
-                    },
-                ]}
-            />
         </>
     );
 }
