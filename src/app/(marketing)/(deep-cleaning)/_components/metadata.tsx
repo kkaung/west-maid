@@ -10,5 +10,18 @@ export const getMetadata = (location: string): Metadata => {
         alternates: {
             canonical: pathname,
         },
+        keywords: [
+            'spring cleaning',
+            'spring clean',
+            'deep cleaning',
+            'deep clean',
+            'spring clean',
+            'spring cleaning perth',
+            'deep cleaning perth',
+            'one-off cleaning service',
+            'deep cleaning service',
+            'deep cleaning service perth',
+            'spring cleaning service perth',
+        ],
     };
 };

@@ -10,5 +10,13 @@ export const getMetadata = (location: string): Metadata => {
         alternates: {
             canonical: pathname,
         },
+        keywords: [
+            'residental window cleaning',
+            'window cleaning service',
+            'window cleaner',
+            'window cleaning service perth',
+            'residental window cleaner perth',
+            'window cleaner perth',
+        ],
     };
 };

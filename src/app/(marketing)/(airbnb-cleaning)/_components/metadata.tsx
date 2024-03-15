@@ -10,5 +10,11 @@ export const getMetadata = (location: string): Metadata => {
         alternates: {
             canonical: pathname,
         },
+        keywords: [
+            'airbnb cleaning',
+            'airbnb cleaner',
+            'airbnb cleaning perth',
+            'airbnb cleaning perth',
+        ],
     };
 };

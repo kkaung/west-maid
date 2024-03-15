@@ -10,6 +10,7 @@ import { fontSans } from '@/lib/fonts';
 import { Providers } from '@/components/providers';
 
 import '@/styles/globals.css';
+import { absoluteUrl } from '@/lib/utils';
 
 export const metadata: Metadata = {
     metadataBase: new URL(env.NEXT_PUBLIC_APP_URL),
@@ -22,8 +23,8 @@ export const metadata: Metadata = {
     },
     description: siteConfig.description,
     keywords: [],
-    authors: [],
-    creator: 'rzcleaning_au',
+    authors: [{ name: 'kaung', url: absoluteUrl('/authors/kaung') }],
+    creator: 'kaung',
     openGraph: {
         type: 'website',
         locale: 'en_US',
@@ -37,7 +38,7 @@ export const metadata: Metadata = {
         title: siteConfig.name,
         description: siteConfig.description,
         images: [`${siteConfig.url}/og.jpg`],
-        creator: '@rzcleaning_au',
+        creator: '@westmaid',
     },
     icons: {
         icon: '/favicon.ico',

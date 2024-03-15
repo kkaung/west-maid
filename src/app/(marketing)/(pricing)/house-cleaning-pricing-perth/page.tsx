@@ -31,6 +31,7 @@ export const runtime = 'edge';
 export const metadata: Metadata = {
     title: 'House Cleaning Prices In Perth',
     description: `Get crystal clear pricing on Perth's top-rated house cleaning services. Find the perfect fit for your budget and needs, with options from weekly refreshes to deep dives.`,
+    keywords: ['cleaning price perth', 'house cleaning price'],
 };
 
 const pricingList = [

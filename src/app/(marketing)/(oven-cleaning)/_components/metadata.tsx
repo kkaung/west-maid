@@ -10,5 +10,15 @@ export const getMetadata = (location: string): Metadata => {
         alternates: {
             canonical: pathname,
         },
+        keywords: [
+            'bbq cleaning',
+            'oven cleaning',
+            'bbq cleaner',
+            'oven cleaner',
+            'bbq cleaning service perth',
+            'oven cleaning service perth',
+            'bbq cleaner perth',
+            'oven cleaner perth',
+        ],
     };
 };

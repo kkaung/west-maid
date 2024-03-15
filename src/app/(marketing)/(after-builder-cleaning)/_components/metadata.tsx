@@ -10,5 +10,17 @@ export const getMetadata = (location: string): Metadata => {
         alternates: {
             canonical: pathname,
         },
+        keywords: [
+            'after builder cleaning',
+            'post construction cleaning',
+            'after builder cleaner',
+            'post construction cleaner',
+            'after builder cleaning perth',
+            'post construction cleaning perth',
+            'build clean',
+            'build cleaner',
+            'build clean perth',
+            'build cleaner perth',
+        ],
     };
 };

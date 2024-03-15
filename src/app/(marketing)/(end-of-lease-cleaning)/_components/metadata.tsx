@@ -10,5 +10,22 @@ export const getMetadata = (location: string): Metadata => {
         alternates: {
             canonical: pathname,
         },
+        keywords: [
+            'end of lease cleaning service',
+            'vacate cleaning serivce',
+            'bond cleaning service',
+            'bond back cleaning',
+            'move out cleaning service',
+            'end of lease cleaning service perth',
+            'vacate cleaning service perth',
+            'move out cleaning service perth',
+            'bond cleaning service perth',
+            'bond back cleaning service perth',
+            'end of lease cleaner',
+            'vacate cleaner',
+            'bond back cleaner',
+            'move out cleaner',
+            'bond cleaner'
+        ],
     };
 };
