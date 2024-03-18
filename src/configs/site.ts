@@ -115,7 +115,6 @@ export const siteConfig = {
         {
             title: 'Useful Links',
             items: [
-                { title: 'Services', href: '/cleaning-services' },
                 { title: 'Contact Us', href: '/contact' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Pricing', href: '/house-cleaning-pricing-perth' },
@@ -128,7 +127,7 @@ export const siteConfig = {
         {
             title: 'Company',
             items: [
-                { title: 'About Us', href: '/about' },
+                { title: 'About Us', href: '/about-us' },
                 { title: 'Careers', href: '/careers' },
                 { title: 'Sitemap', href: '/sitemap' },
             ],

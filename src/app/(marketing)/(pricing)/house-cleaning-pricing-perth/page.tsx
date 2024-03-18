@@ -17,14 +17,14 @@ import {
     TableRow,
 } from '@/components/ui/table';
 import { Metadata } from 'next';
-
-import FAQs from '../_components/faqs';
 import { formatDate } from '@/lib/utils';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { type Author, allAuthors } from 'contentlayer/generated';
-import Link from 'next/link';
 import { Icons } from '@/components/icons';
+import Link from 'next/link';
+
+import FAQs from '../_components/faqs';
 
 export const runtime = 'edge';
 
@@ -92,9 +92,36 @@ export default function Page() {
                     </time>
                 </PageHeaderDescription>
             </PageHeader>
+            <div className="mx-auto prose prose-quoteless prose-neutral dark:prose-invert">
+                <p>
+                    Coast Maid provides a range of high-quality cleaning
+                    services, from house cleaning to{' '}
+                    <Link href="/office-cleaning-perth">
+                        office cleaning
+                    </Link>
+                    ,{' '}
+                    <Link href="/bond-cleaning-perth">
+                        end of lease cleaning
+                    </Link>{' '}
+                    and{' '}
+                    <Link href="/carpet-cleaning-perth">
+                        carpet cleaning
+                    </Link>
+                    . We cater to homes throughout Gold Coast, offering
+                    top-notch cleaning solutions at affordable prices, ensuring
+                    accessibility to the best cleaners in the city for all.
+                </p>
+                <p>
+                    This guide unveils the secrets to sparkling spaces without
+                    the shocking bill. From hourly rates to flat fees, discover
+                    the perfect cleaning solution for your home and budget.
+                    Breathe easy knowing you&apos;re getting expert service
+                    without the stress of hidden fees.
+                </p>
+            </div>
             <section className="broder max-w-xl mx-auto w-full">
                 <Table>
-                    <TableCaption>A list of cleaning prices.</TableCaption>
+                    <TableCaption>A list of house cleaning prices.</TableCaption>
                     <TableHeader>
                         <TableRow className="text-base">
                             <TableHead className="w-[300px]">
