@@ -4,14 +4,11 @@ import { absoluteUrl } from './utils';
 
 const isBrowser = typeof window !== 'undefined';
 
-// const pathname = window.location.pathname;
-
 export const OrganizationSchema: Organization = {
     '@type': 'Organization',
     name: siteConfig.title,
     description: siteConfig.description,
     logo: absoluteUrl('/images/logo.png'),
-    // url: absoluteUrl(pathname),
     ...(isBrowser && { url: absoluteUrl(window.location.pathname) }),
     email: siteConfig.business.email,
     telephone: siteConfig.business.phone,

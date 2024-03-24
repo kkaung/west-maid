@@ -70,7 +70,7 @@ export default function Page() {
                         {allPosts.map(i => (
                             <li key={i.title}>
                                 <Link
-                                    href={`/${i.slugAsParams}`}
+                                    href={`/blog/${i.slugAsParams}`}
                                     className="hover:underline"
                                     title={`${i.title}`}
                                 >

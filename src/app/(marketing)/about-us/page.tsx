@@ -15,6 +15,9 @@ export const runtime = 'edge';
 export const metadata: Metadata = {
     title: `About Us - ${siteConfig.name}`,
     description: `Join us on our journey to revolutionize the cleaning industry! Get acquainted with our dedicated field and office staff members, and learn about the inception of ${siteConfig.name}.`,
+    alternates: {
+        canonical: '/about-us',
+    },
 };
 
 export default function page() {
@@ -39,23 +42,23 @@ export default function page() {
                     <p>
                         <Link href="/">{siteConfig.name}</Link> emerged from the
                         visionary mind of{' '}
-                        <Link href="/authors/kaung">Kaung Zaw</Link>, a Gold
-                        Coast resident deeply attuned to the transformative
-                        influence of a tidy home on personal well-being.
-                        Recognizing the fast pace of contemporary living, Haroun
-                        conceptualized a dependable, top-tier cleaning service
-                        aimed at affording individuals the luxury of time and
-                        the serenity of a pristine living space.
+                        <Link href="/authors/kaung">Kaung Zaw</Link>, a Perth
+                        resident deeply attuned to the transformative influence
+                        of a tidy home on personal well-being. Recognizing the
+                        fast pace of contemporary living, Haroun conceptualized
+                        a dependable, top-tier cleaning service aimed at
+                        affording individuals the luxury of time and the
+                        serenity of a pristine living space.
                     </p>
                 </section>
                 <section>
                     <h2>The Mission</h2>
                     <p>
-                        Under Kaung&apos;s visionary leadership, Coast Maid
+                        Under Kaung&apos;s visionary leadership, West Maid
                         transcended its origins as a mere cleaning service,
                         evolving into a catalyst for enhanced lifestyles. By
                         relieving individuals of the burdensome task of
-                        household chores, Coast Maid strives to elevate the
+                        household chores, West Maid strives to elevate the
                         overall quality of life. Kaung perceives his company not
                         only as a business entity but also as an indispensable
                         cornerstone of the community.
@@ -64,7 +67,7 @@ export default function page() {
                 <section>
                     <h2>The Future</h2>
                     <p>
-                        Kaung&apos;s aspirations for Coast Maid reach far beyond
+                        Kaung&apos;s aspirations for West Maid reach far beyond
                         traditional cleaning services. His goal is to
                         revolutionize customer satisfaction within the industry,
                         constantly adapting to meet the changing needs of
